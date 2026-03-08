@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\bibauthor}[1]{#1}
 \providecommand{\bibeditor}[1]{#1}
 \providecommand{\bibtranslator}[1]{#1}
@@ -24,16 +24,138 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{url{#1}}
 
-\bibitem{zhang98}
-\bibauthor{张志祥}\@.
-  \bibtitle{间断动力系统的随机扰动及其在守恒律方程中的应用}\bibmark{[D]}\@.
-  \bibaddress{北京}\thinspace{}\textnormal{:
-  }\bibschool{北京大学数学学院}\@, \bibyear{1998年}\@.
+\bibitem{oneillOpenXembodimentRobotic2024}
+\bibauthor{O'NEILL A\@, REHMAN A\@, MADDUKURI A, et~al}\@. \bibtitle{Open
+  X-Embodiment: Robotic Learning Datasets and Rt-x Models: Open x-Embodiment
+  Collaboration 0}\bibmark{[C]} //\thinspace{}\bibbooktitle{2024 IEEE
+  International Conference on Robotics and Automation (ICRA)}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2024}\thinspace{}\textnormal{:
+  }\bibpages{6892\thinspace{}\textnormal{--}\thinspace{}6903}\@.
 
-\bibitem{Zuo10}
-\bibauthor{作者}\@. \bibtitle{网络部署标准}\bibmark{[S]}\@.
-  \bibedition{\mbox{网络部}}\@. \bibyear{2010}\thinspace{}\textnormal{:
-  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}6}
-  \bibcitedate{[2011-11-12]}\@.
+\bibitem{brohanRt1RoboticsTransformer2022}
+\bibauthor{BROHAN A\@, BROWN N\@, CARBAJAL J, et~al}\@. \bibtitle{Rt-1:
+  Robotics Transformer for Real-World Control at Scale}\bibmark{[J]}\@.
+  \bibjournal{arXiv preprint arXiv:2212.06817}\@, \bibyear{2022}\@.
+
+\bibitem{qinAnyteleopGeneralVisionbased2023}
+\bibauthor{QIN Y\@, YANG W\@, HUANG B, et~al}\@. \bibtitle{Anyteleop: A General
+  Vision-Based Dexterous Robot Arm-Hand Teleoperation System}\bibmark{[J]}\@.
+  \bibjournal{arXiv preprint arXiv:2307.04577}\@, \bibyear{2023}\@.
+
+\bibitem{figueraRedefiningDataPairing2024}
+\bibauthor{FIGUERA X\@, PARK S\@, AHN H}\@. \bibtitle{Redefining Data Pairing
+  for Motion Retargeting Leveraging a Human Body Prior}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{2024 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS)}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2024}\thinspace{}\textnormal{:
+  }\bibpages{4800\thinspace{}\textnormal{--}\thinspace{}4807}\@.
+
+\bibitem{zhangKinematicMotionRetargeting2022}
+\bibauthor{ZHANG H\@, LI W\@, LIU J, et~al}\@. \bibtitle{Kinematic Motion
+  Retargeting via Neural Latent Optimization for Learning Sign
+  Language}\bibmark{[J]}\@. \bibjournal{IEEE Robotics and Automation
+  Letters}\@, \bibyear{2022}\@,
+  \bibvolume{7}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{4582\thinspace{}\textnormal{--}\thinspace{}4589}\@.
+
+\bibitem{vaswaniAttentionAllYou2017}
+\bibauthor{VASWANI A\@, SHAZEER N\@, PARMAR N, et~al}\@. \bibtitle{Attention Is
+  All You Need}\bibmark{[J]}\@. \bibjournal{Advances in neural information
+  processing systems}\@, \bibyear{2017}\@, \bibvolume{30}\@.
+
+\bibitem{liDexterousHandarmTeleoperation2022}
+\bibauthor{LI S\@, HENDRICH N\@, LIANG H, et~al}\@. \bibtitle{A Dexterous
+  Hand-Arm Teleoperation System Based on Hand Pose Estimation and Active
+  Vision}\bibmark{[J]}\@. \bibjournal{IEEE Transactions on Cybernetics}\@,
+  \bibyear{2022}\@, \bibvolume{54}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{1417\thinspace{}\textnormal{--}\thinspace{}1428}\@.
+
+\bibitem{ICRA2026LYC}
+\bibauthor{LAI Y\@, GAO Q\@, LIANG Z, et~al}\@. \bibtitle{DexTele: A Dual-Arm
+  Dexterous Teleoperation System Based on Motion Retargeting and Adaptive Force
+  Control}\bibmark{[C]} //\thinspace{}\bibbooktitle{2026 IEEE International
+  Conference on Robotics and Automation (ICRA)}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2026}\@.
+
+\bibitem{zhangHRGCN2D3DWholebody2025}
+\bibauthor{ZHANG M\@, GAO Q\@, LAI Y, et~al}\@. \bibtitle{HR-GCN: 2D-3D
+  Whole-Body Pose Estimation with High-Resolution Graph Convolutional Network
+  from a Monocular Camera}\bibmark{[J]}\@. \bibjournal{IEEE Sensors Journal}\@,
+  \bibyear{2025}\@.
+
+\bibitem{dingBunnyvisionproRealtimeBimanual2025}
+\bibauthor{DING R\@, QIN Y\@, ZHU J, et~al}\@. \bibtitle{Bunny-Visionpro:
+  Real-time Bimanual Dexterous Teleoperation for Imitation
+  Learning}\bibmark{[C]} //\thinspace{}\bibbooktitle{2025 IEEE/RSJ
+  International Conference on Intelligent Robots and Systems (IROS)}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2025}\thinspace{}\textnormal{:
+  }\bibpages{12248\thinspace{}\textnormal{--}\thinspace{}12255}\@.
+
+\bibitem{jiangMotiongptHumanMotion2023}
+\bibauthor{JIANG B\@, CHEN X\@, LIU W, et~al}\@. \bibtitle{Motiongpt: Human
+  Motion as a Foreign Language}\bibmark{[J]}\@. \bibjournal{Advances in Neural
+  Information Processing Systems}\@, \bibyear{2023}\@,
+  \bibvolume{36}\thinspace{}\textnormal{:
+  }\bibpages{20067\thinspace{}\textnormal{--}\thinspace{}20079}\@.
+
+\bibitem{rampasekRecipeGeneralPowerful2022}
+\bibauthor{RAMPášEK L\@, GALKIN M\@, DWIVEDI V~P, et~al}\@. \bibtitle{Recipe
+  for a General, Powerful, Scalable Graph Transformer}\bibmark{[J]}\@.
+  \bibjournal{Advances in Neural Information Processing Systems}\@,
+  \bibyear{2022}\@, \bibvolume{35}\thinspace{}\textnormal{:
+  }\bibpages{14501\thinspace{}\textnormal{--}\thinspace{}14515}\@.
+
+\bibitem{camgozSignLanguageTransformers2020}
+\bibauthor{CAMGOZ N~C\@, KOLLER O\@, HADFIELD S, et~al}\@. \bibtitle{Sign
+  Language Transformers: Joint End-to-End Sign Language Recognition and
+  Translation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition}\@.
+  \bibyear{2020}\thinspace{}\textnormal{:
+  }\bibpages{10023\thinspace{}\textnormal{--}\thinspace{}10033}\@.
+
+\bibitem{zheng3dHumanPose2021}
+\bibauthor{ZHENG C\@, ZHU S\@, MENDIETA M, et~al}\@. \bibtitle{3d Human Pose
+  Estimation with Spatial and Temporal Transformers}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE/CVF International
+  Conference on Computer Vision}\@. \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{11656\thinspace{}\textnormal{--}\thinspace{}11665}\@.
+
+\bibitem{zhaoPoseformerv2ExploringFrequency2023}
+\bibauthor{ZHAO Q\@, ZHENG C\@, LIU M, et~al}\@. \bibtitle{Poseformerv2:
+  Exploring Frequency Domain for Efficient and Robust 3d Human Pose
+  Estimation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition}\@.
+  \bibyear{2023}\thinspace{}\textnormal{:
+  }\bibpages{8877\thinspace{}\textnormal{--}\thinspace{}8886}\@.
+
+\bibitem{joshiTransformersAreGraph2025}
+\bibauthor{JOSHI C~K}\@. \bibtitle{Transformers Are Graph Neural
+  Networks}\bibmark{[J]}\@. \bibjournal{arXiv preprint arXiv:2506.22084}\@,
+  \bibyear{2025}\@.
+
+\bibitem{feyFastGraphRepresentation2019}
+\bibauthor{FEY M\@, LENSSEN J~E}\@. \bibtitle{Fast Graph Representation
+  Learning with PyTorch Geometric}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:1903.02428}\@, \bibyear{2019}\@.
+
+\bibitem{zhouImprovingSignLanguage2021}
+\bibauthor{ZHOU H\@, ZHOU W\@, QI W, et~al}\@. \bibtitle{Improving Sign
+  Language Translation with Monolingual Data by Sign
+  Back-Translation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition}\@.
+  \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{1316\thinspace{}\textnormal{--}\thinspace{}1325}\@.
+
+\bibitem{imambiPyTorch2021}
+\bibauthor{IMAMBI S\@, PRAKASH K~B\@, KANAGACHIDAMBARESAN G~R}\@.
+  \bibtitle{PyTorch}\bibmark{[G]} //\thinspace{}\bibbooktitle{Programming with
+  TensorFlow: Solution for Edge Computing Applications}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
+  \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{87\thinspace{}\textnormal{--}\thinspace{}104}\@.
 
 \end{thebibliography}

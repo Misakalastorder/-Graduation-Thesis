@@ -1,5 +1,4 @@
 \chapter{实验部分}
-内容概括 \cite{Zuo10}
 本章将详细介绍实验的具体配置，并展示 TransRetarget 算法与主流基准方法的对比实验结果，
 从多平台适配性、数据集质量及核心性能指标等维度进行综合评估。
 \section{实验配置}
@@ -9,10 +8,10 @@
 自建 VP 数据集：利用 Apple VisionPro 头显采集，包含实验员佩戴设备时进行的 10 分钟随机手部动作，总计 10,000 帧。
 该数据集每帧提供 25 个手部关键点的高精度三维坐标，真实反映了人类在自然状态下的交互逻辑。
 CSL-Daily 手语数据集：为了引入更复杂的语义动作，我们从该数据集中提取了由 3 名志愿者演示的 299 种手语动作，共 6,000 帧。
-通过 SLAHMR 算法从单目图像中恢复出三维手部姿态，每帧提供 16 个关键点位置数据。
+通过 SLAHMR 算法从单目图像中恢复出三维手部姿态，每帧提供 16 个关键点位置数据\cite{zhouImprovingSignLanguage2021}。
 
 \subsection{训练设置}
-算法基于 PyTorch 框架实现。硬件配置为 NVIDIA RTX 3050 Laptop GPU 与 Intel Core i7-12700H CPU。
+算法基于 PyTorch 框架实现\cite{imambiPyTorch2021}。硬件配置为 NVIDIA RTX 3050 Laptop GPU 与 Intel Core i7-12700H CPU。
 训练过程中使用 Adam 优化器，学习率固定为 $1 \times 10^{-4}$。
 
 \subsection{评测指标}
