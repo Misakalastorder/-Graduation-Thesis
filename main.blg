@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
@@ -14,56 +14,57 @@ A level-1 auxiliary file: docs/Chapter_05.aux
 Reallocating 'name_of_file' (item size: 1) to 39 items.
 The style file: Bibliography/bibtex-style/gbt7714-2005.bst
 Reallocating 'name_of_file' (item size: 1) to 23 items.
-Reallocating 'name_of_file' (item size: 1) to 21 items.
-A level-1 auxiliary file: docs/Achievement.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: docs/Acknowledgements.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-A level-1 auxiliary file: docs/Appendix1.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-A level-1 auxiliary file: docs/Appendix2.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: Bibliography/Reference.bib
-You've used 2 entries,
+Warning--I didn't find a database entry for "hengFramebyframeMotionRetargeting2024"
+Warning--Require address: oneillOpenXembodimentRobotic2024
+Warning--Require address: figueraRedefiningDataPairing2024
+Warning--Require address: ICRA2026LYC
+Warning--Require address: dingBunnyvisionproRealtimeBimanual2025
+Warning--Require address: imambiPyTorch2021
+You've used 19 entries,
             3107 wiz_defined-function locations,
-            730 strings with 6310 characters,
-and the built_in function-call counts, 1240 in all, are:
-= -- 85
-> -- 5
-< -- 11
-+ -- 60
-- -- 11
-* -- 72
-:= -- 114
+            835 strings with 11502 characters,
+and the built_in function-call counts, 37643 in all, are:
+= -- 4197
+> -- 73
+< -- 165
++ -- 3333
+- -- 252
+* -- 939
+:= -- 4220
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 3
-cite$ -- 2
-duplicate$ -- 137
-empty$ -- 76
-format.name$ -- 8
-if$ -- 299
+call.type$ -- 19
+change.case$ -- 108
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 5368
+empty$ -- 1447
+format.name$ -- 216
+if$ -- 10121
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 19
 missing$ -- 0
-newline$ -- 33
-num.names$ -- 2
-pop$ -- 30
+newline$ -- 84
+num.names$ -- 19
+pop$ -- 497
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 26
+skip$ -- 328
 stack$ -- 0
-substring$ -- 93
-swap$ -- 82
+substring$ -- 4558
+swap$ -- 881
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 26
-width$ -- 3
-write$ -- 53
+warning$ -- 5
+while$ -- 475
+width$ -- 21
+write$ -- 273
+(There were 6 warnings)
