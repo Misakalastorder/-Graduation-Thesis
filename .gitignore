@@ -1,0 +1,36 @@
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.ist
+*.pdfsync
+*.synctex.gz
+*.run.xml
+*.dvi
+*.ps
+*.xdv
+*.xwm
+*.thm
+*.nav
+*.snm
+*.vrb
+*.synctex(busy)
+
+# Build directories
+build/
+_output/
+
+# Temp files
+*.tmp
+*~
