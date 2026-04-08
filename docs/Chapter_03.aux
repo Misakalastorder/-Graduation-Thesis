@@ -18,36 +18,35 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3-2}{\ignorespaces TransRetarget框架概述。模型输入为人手关节的位置。 在训练阶段，角度输出后会通过前向运动学模块转换为机器人手部的位置， 然后进入损失函数以指导网络参数的优化，数据沿着蓝色箭头和棕色箭头流动。 在推理过程中，角度直接用于驱动机器人手部，数据沿着蓝色箭头流动。 }}{18}{figure.caption.8}\protected@file@percent }
 \newlabel{fig:model_framework}{{3-2}{18}{TransRetarget框架概述。模型输入为人手关节的位置。 在训练阶段，角度输出后会通过前向运动学模块转换为机器人手部的位置， 然后进入损失函数以指导网络参数的优化，数据沿着蓝色箭头和棕色箭头流动。 在推理过程中，角度直接用于驱动机器人手部，数据沿着蓝色箭头流动。}{figure.caption.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}TransRetarget方法总览}{18}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}人手坐标系统一}{18}{section.3.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3-3}{\ignorespaces  时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器。 }}{19}{figure.caption.9}\protected@file@percent }
 \newlabel{fig:network_framework}{{3-3}{19}{时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器。}{figure.caption.9}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}空间编码器}{19}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}特征线性投影}{19}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}空间位置编码}{19}{subsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}空间多头自注意力机制}{20}{subsection.3.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}时间编码器}{20}{section.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}时间位置编码}{20}{subsection.3.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}时间多头自注意力机制}{21}{subsection.3.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}时空特征深度耦合}{21}{subsection.3.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}回归头}{22}{section.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.1}特征聚合与降维}{22}{subsection.3.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.2}物理范围限制与激活设计}{22}{subsection.3.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}运动学模块}{23}{section.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.1}机器人描述文件解析}{23}{subsection.3.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.2}前向运动学计算}{23}{subsection.3.7.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}}{24}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:urdf_structure}{{3-4}{24}{URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.3}跨平台适配的灵活性}{24}{subsection.3.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.8}损失函数设计}{24}{section.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.1}手指摆动损失}{24}{subsection.3.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.2}手指指尖位置损失}{25}{subsection.3.8.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.3}手指指尖距离损失}{25}{subsection.3.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.4}碰撞损失}{25}{subsection.3.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.5}复合损失函数汇总}{26}{subsection.3.8.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.9}本章小结}{26}{section.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}空间编码器}{19}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}特征线性投影}{19}{subsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}空间位置编码}{19}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}空间多头自注意力机制}{20}{subsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}时间编码器}{20}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}时间位置编码}{20}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}时间多头自注意力机制}{21}{subsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}时空特征深度耦合}{21}{subsection.3.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}回归头}{22}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}特征聚合与降维}{22}{subsection.3.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}物理范围限制与激活设计}{22}{subsection.3.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}}{23}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:urdf_structure}{{3-4}{23}{URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}运动学模块}{23}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.1}机器人描述文件解析}{23}{subsection.3.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.2}前向运动学计算}{24}{subsection.3.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.3}跨平台适配的灵活性}{24}{subsection.3.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}损失函数设计}{24}{section.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.1}手指摆动损失}{24}{subsection.3.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.2}手指指尖向量损失}{25}{subsection.3.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.3}手指指尖距离损失}{25}{subsection.3.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.4}碰撞损失}{25}{subsection.3.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7.5}复合损失函数汇总}{26}{subsection.3.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.8}本章小结}{26}{section.3.8}\protected@file@percent }
 \@setckpt{docs/Chapter_03}{
-\setcounter{page}{27}
-\setcounter{equation}{23}
+\setcounter{page}{28}
+\setcounter{equation}{24}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -56,7 +55,7 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{3}
-\setcounter{section}{9}
+\setcounter{section}{8}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
@@ -92,7 +91,7 @@
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{24}
+\setcounter{bookmark@seq@number}{23}
 \setcounter{BackrefHyperFootnoteCounter}{0}
 \setcounter{lstlisting}{0}
 }
