@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<robot name="simple_robot">
+  <!-- 基础链接 -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- 连接圆柱体 -->
+  <joint name="base_to_cylinder_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="cylinder_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+  </joint>
+
+  <link name="cylinder_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.3" radius="0.02"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.3" radius="0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.00045" ixy="0" ixz="0" iyy="0.00045" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <!-- 可旋转的末端链接 -->
+  <joint name="rotary_joint" type="revolute">
+    <parent link="cylinder_link"/>
+    <child link="end_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <link name="end_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- 新增段：第二个圆柱体连接 -->
+  <joint name="end_to_second_cylinder_joint" type="fixed">
+    <parent link="end_link"/>
+    <child link="second_cylinder_link"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <link name="second_cylinder_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.25" radius="0.02"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.3 0.3 0.3 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.25" radius="0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.04"/>
+      <inertia ixx="0.00025" ixy="0" ixz="0" iyy="0.00025" iyz="0" izz="0.000008"/>
+    </inertial>
+  </link>
+
+  <!-- 第二个旋转关节 -->
+  <joint name="second_rotary_joint" type="revolute">
+    <parent link="second_cylinder_link"/>
+    <child link="tip_link"/>
+    <origin xyz="0 0 0.125" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>  <!-- 绕Y轴旋转 -->
+    <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+  </joint>
+
+  <link name="tip_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.08"/>
+      <inertia ixx="0.000042" ixy="0" ixz="0" iyy="0.000042" iyz="0" izz="0.000042"/>
+    </inertial>
+  </link>
+</robot>

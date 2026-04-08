@@ -19,8 +19,8 @@
 \newlabel{fig:model_framework}{{3-2}{18}{TransRetarget框架概述。模型输入为人手关节的位置。 在训练阶段，角度输出后会通过前向运动学模块转换为机器人手部的位置， 然后进入损失函数以指导网络参数的优化，数据沿着蓝色箭头和棕色箭头流动。 在推理过程中，角度直接用于驱动机器人手部，数据沿着蓝色箭头流动。}{figure.caption.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}TransRetarget方法总览}{18}{section.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}人手坐标系统一}{18}{section.3.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3-3}{\ignorespaces  时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器. }}{19}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:network_framework}{{3-3}{19}{时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-3}{\ignorespaces  时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器。 }}{19}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:network_framework}{{3-3}{19}{时空Transformer模块的网络架构示意图。 输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息， 生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。 (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器。}{figure.caption.9}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}空间编码器}{19}{section.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}特征线性投影}{19}{subsection.3.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}空间位置编码}{19}{subsection.3.4.2}\protected@file@percent }
@@ -35,16 +35,18 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.7}运动学模块}{23}{section.3.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.7.1}机器人描述文件解析}{23}{subsection.3.7.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.7.2}前向运动学计算}{23}{subsection.3.7.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}}{24}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:urdf_structure}{{3-4}{24}{URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}{figure.caption.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.7.3}跨平台适配的灵活性}{24}{subsection.3.7.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.8}损失函数设计}{24}{section.3.8}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.8.1}手指摆动损失}{24}{subsection.3.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.2}手指指尖位置损失}{24}{subsection.3.8.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.3}手指指尖距离损失}{24}{subsection.3.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.2}手指指尖位置损失}{25}{subsection.3.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.3}手指指尖距离损失}{25}{subsection.3.8.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.8.4}碰撞损失}{25}{subsection.3.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.5}复合损失函数汇总}{25}{subsection.3.8.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.9}本章小结}{25}{section.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8.5}复合损失函数汇总}{26}{subsection.3.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.9}本章小结}{26}{section.3.9}\protected@file@percent }
 \@setckpt{docs/Chapter_03}{
-\setcounter{page}{26}
+\setcounter{page}{27}
 \setcounter{equation}{23}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -59,7 +61,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{3}
+\setcounter{figure}{4}
 \setcounter{table}{0}
 \setcounter{caption@flags}{2}
 \setcounter{continuedfloat}{0}

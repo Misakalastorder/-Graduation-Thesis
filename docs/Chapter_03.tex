@@ -4,7 +4,8 @@
 \section{PoseformerV1}
 作为本论文算法的参考算法，本文将首先介绍 PoseFormerV1 的原理。其主要完成的任务是解析输入的二维关键点序列，并生成相应的三维姿态表示。
 PoseFormerV1 的整体架构主要由空间 Transformer 编码器和时间 Transformer 编码器级联而成
-\cite{zheng3dHumanPose2021}\cite{zhaoPoseformerv2ExploringFrequency2023}，如图\ref{fig:poseV1network} 所示。
+\cite{zheng3dHumanPose2021}\cite{zhaoPoseformerv2ExploringFrequency2023}，
+如图\ref{fig:poseV1network} 所示。
 
 \begin{figure}
     \centering
@@ -14,34 +15,35 @@ PoseFormerV1 的整体架构主要由空间 Transformer 编码器和时间 Trans
 \end{figure}
 
 \subsection{空间 Transformer 编码器}
-对于输入序列$X \in \mathbb{R}^{f \times J \times 2}$，表示连续 $f$ 帧、每帧 $J$ 个关节的二维坐标，
+对于输入序列$X \in \mathbb{R}^{f \times J \times 2}$，
+表示连续 $f$ 帧、每帧 $J$ 个关节的二维坐标，
 空间编码器的目标是提取每一帧内关节之间的空间拓扑关系。
 序列定义为$X = \{x_1, x_2, \ldots, x_f\}$，其中 $x_i \in \mathbb{R}^{J \times 2}$ 表示第 $i$ 帧的所有的关节坐标。
 该编码器输入每一帧内所有人体关节的坐标 。
 
 首先方法将每个关节坐标线性投影为高维向量，以提高模型的表达能力
 \begin{equation}
-x_{t*h} = x_{t*2} * H_{2*h}
+x_{t*h} = x_{t*2} * H_{2*h}.
 \end{equation}
 得到高维表达后，其加入了可学习的空间位置嵌入信息。
 空间位置编码是一个可以学习的参数矩阵，由输入数据通过一层线性变换层得到。
 在本方法中，我们设置了空间位置编码矩阵在训练过程中会进行调整，以学习空间表示，而在实时推理时固定。
-其中空间位置编码的复杂度可以通过$H_{P}$控制,即可以改变空间编码深度$d_{P}$。
+其中空间位置编码的复杂度可以通过$H_{P}$控制,即可以改变空间编码深度$d_{P}$。空间位置编码过程为：
 % 本方法中设定了将$E_{P}$维度为$j*64$。
 \begin{equation}
-E_{P} = x_{j*h} * H_{P}
+E_{P} = x_{j*h} * H_{P}.
 \end{equation}
 之后将$x_{j*h}$和$E_{P}$拼接
 \begin{equation}
-x_{j*(h+d_{P})} = [x_{j*h} * H_{P} , E_{P}]
+x_{j*(h+d_{P})} = [x_{j*h} * H_{P} , E_{P}],
 \end{equation}
 \begin{equation}
-h^{'}_{P} = h+d_{P}
+h^{'}_{P} = h+d_{P}.
 \end{equation}
 
-然后输入到F层Transformer编码器得到完整的空间特征输出$y_{F}$
+然后输入到F层Transformer编码器得到完整的空间特征输出$y_{F}$。
 \subsection{时间 Transformer 编码器}
-该编码器将空间编码器输出的特征拼接，转化为帧序列特征$Y_{j*h^{'}_{p}*f}$，
+该编码器将空间编码器输出的特征拼接，转化为帧序列特征$Y_{j*h^{'}_{p}*f}$，其中
 $Y = \{y_1, y_2, \ldots, y_f\}$。
 其中$j$ 表示关节点，$h^{'}_{p}$ 表示空间编码后的维度，$f$ 表示帧数。
 
@@ -49,19 +51,19 @@ $Y = \{y_1, y_2, \ldots, y_f\}$。
 时间位置编码是一个可以学习的参数矩阵，由输入数据通过一层线性变换层得到。
 在训练过程中，时间位置编码矩阵会进行调整，以学习时间表示。
 时间位置编码的复杂度可以通过$H_{T}$控制,即可以改变时间编码深度$d_{T}$。
-在嵌入过程中我们会对每一帧对应的空间特征嵌入时间位置编码。
+在嵌入过程中我们会对每一帧对应的空间特征嵌入时间位置编码。时间位置编码过程为：
 \begin{equation}
-  E_{T} = y_{j*h_{T}} * H_{T}
+  E_{T} = y_{j*h_{T}} * H_{T},
 \end{equation}
 \begin{equation}
-h_{T} = h^{'}_{P}
+h_{T} = h^{'}_{P}.
 \end{equation}
 之后将$y_{j*h^{'}_{P}}$和$E_{T}$拼接
 \begin{equation}
-y_{j*(h^{'}_{P}+d_{T})} = [y_{j*h^{'}_{P}} * H_{T} , E_{T}]
+y_{j*(h^{'}_{P}+d_{T})} = [y_{j*h^{'}_{P}} * H_{T} , E_{T}],
 \end{equation}
 \begin{equation}
-h^{'}_{T} = h_{T}+d_{T}
+h^{'}_{T} = h_{T}+d_{T}.
 \end{equation}
 在加入时间位置嵌入后，我们将其输入到T层Transformer编码器中，得到完整的时间特征输出$z_{T}$。
 最终学习动作在长距离时间序列中的演变规律和动态特征 。
@@ -115,12 +117,13 @@ TransRetarget 的整体框架包括输入处理、时空特征提取、回归输
   \caption{ 时空Transformer模块的网络架构示意图。 
   输入为连续多帧手部关键点序列，经过空间编码器处理后，生成包含空间特征序列。然后输入至时间编码器，捕捉帧间信息，
   生成包含时空特征的序列。最后通过回归头将时空特征映射为机器人关节角度。
-  (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器.
+  (a) 时空Transformer模块; (b) 空间Transformer模块; (c) Transformer编码器。
   }
   \label{fig:network_framework}
 \end{figure}
 \section{空间编码器}
-
+图 \ref{fig:network_framework} 展示了时空 Transformer 模块的网络架构示意图。
+其中图\ref{fig:network_framework}(b)展示了空间编码器的网络架构。
 在本文提出的 TransRetarget 框架中，空间编码器承担着解析单帧手部姿态内部拓扑结构的任务。与原始 PoseFormerV1 处理 2D 像素坐标不同，
 本文的空间编码器直接作用于三维空间数据，旨在提取更高维度的手部几何特征。
 \subsection{特征线性投影}
@@ -130,7 +133,7 @@ TransRetarget 的整体框架包括输入处理、时空特征提取、回归输
 单个编码器输入单帧内所有人体关节的坐标。
 系统首先通过一个线性投影层将每个关键点的三维坐标映射到高维特征空间，以提高模型的表达能力
 \begin{equation}
-X_{t*h} = X_{t*3} * H_{3*h}
+X_{t*h} = X_{t*3} * H_{3*h}.
 \end{equation}
 这一过程将物理位置转化为向量，为后续的计算奠定基础。
 \subsection{空间位置编码}
@@ -140,13 +143,13 @@ X_{t*h} = X_{t*3} * H_{3*h}
 空间位置编码是一个可以学习的参数矩阵，由输入数据通过一层线性变换层得到。
 在本方法中，我们设置了空间位置编码矩阵在训练过程中会进行调整，以学习空间表示，而在实时推理时固定。
 其中空间位置编码的复杂度可以通过$H_{P}$控制,即可以改变空间编码深度$d_{P}$。
-本方法中设定了将$E_{P}$维度为$j*64$。
+本方法中设定了将$E_{P}$维度为$j*64$。空间位置编码过程为：
 \begin{equation}
-E_{P} = X_{j*h} * H_{P}
+E_{P} = X_{j*h} * H_{P}.
 \end{equation}
 之后将$X_{j*h}$和$E_{P}$拼接
 \begin{equation}
-X_{j*(h+d_{P})} = [X_{j*h} * H_{P} , E_{P}]
+X_{j*(h+d_{P})} = [X_{j*h} * H_{P} , E_{P}].
 \end{equation}
 得到嵌入空间位置编码张量后，输入到F层Transformer编码器得到完整的空间特征输出$X_F$。
 \subsection{空间多头自注意力机制}
@@ -165,19 +168,19 @@ $Y = \{y_1, y_2, \ldots, y_f\}$。
 时间位置编码是一个可以学习的参数矩阵，由输入数据通过一层线性变换层得到。
 在训练过程中，时间位置编码矩阵会进行调整，以学习时间表示。
 时间位置编码的复杂度可以通过$H_{T}$控制,即可以改变时间编码深度$d_{T}$。
-在嵌入过程中我们会对每一帧对应的空间特征嵌入时间位置编码。
+在嵌入过程中我们会对每一帧对应的空间特征嵌入时间位置编码。时间位置编码过程为：
 \begin{equation}
-  E_{T} = y_{j*h_{T}} * H_{T}
+  E_{T} = y_{j*h_{T}} * H_{T},
 \end{equation}
 \begin{equation}
-h_{T} = h^{'}_{P}
+h_{T} = h^{'}_{P}.
 \end{equation}
 之后将$y_{j*h^{'}_{P}}$和$E_{T}$拼接
 \begin{equation}
-y_{j*(h^{'}_{P}+d_{T})} = [y_{j*h^{'}_{P}} * H_{T} , E_{T}]
+y_{j*(h^{'}_{P}+d_{T})} = [y_{j*h^{'}_{P}} * H_{T} , E_{T}],
 \end{equation}
 \begin{equation}
-h^{'}_{T} = h_{T}+d_{T}
+h^{'}_{T} = h_{T}+d_{T}.
 \end{equation}
 在加入时间位置嵌入后，我们将其输入到T层Transformer编码器中，得到完整的时间特征输出$z_{T}$。
 最终学习动作在长距离时间序列中的演变规律和动态特征 。
@@ -201,9 +204,9 @@ h^{'}_{T} = h_{T}+d_{T}
 回归头本质上是完成模型从编码特征到角度结果的转换功能。
 \subsection{特征聚合与降维}
 时间编码器输出的特征矩阵包含了多帧手部运动的复杂关联信息。回归头首先通过两个线性投影层对这些特征进行聚合。
-将高维特征压缩至与目标关节角度维度相匹配的空间，从而实现特征的信息提炼。
+将高维特征压缩至与目标关节角度维度相匹配的空间，从而实现特征的信息提炼。压缩过程如下：
 \begin{equation}
-A = W_{1*f} * Z_{f*j*h^{'}_{T}} * W_{h^{'}_{T}*1}
+A = W_{1*f} * Z_{f*j*h^{'}_{T}} * W_{h^{'}_{T}*1}.
 \end{equation}
 其中W是两个可以学习的权重矩阵，训练完成后固定。这个模块最终会输出一个特征向量A，该向量维度与目标关节数量一致。
 % \subsection{关节角度向量映射}
@@ -215,7 +218,7 @@ A = W_{1*f} * Z_{f*j*h^{'}_{T}} * W_{h^{'}_{T}*1}
 这种预处理机制也防止了后续运动学模块会处理越界数据。
 以第一个关节的角度为例：
 \begin{equation}
-A_0^{''} = A_{0min} + (A_0 + 1) \cdot \frac{A_{0max} - A_{0min}}{1 - (-1)}
+A_0^{''} = A_{0min} + (A_0 + 1) \cdot \frac{A_{0max} - A_{0min}}{1 - (-1)}.
 \end{equation}
 该公式描述了角度值的归一化处理过程，其中$A_{0min}$和$A_{0max}$是关节角度的物理下限和上限，$A_0$是回归头输出的关节角度向量。
 % \subsection{对后续运动学模块的支持}
@@ -234,6 +237,15 @@ A_0^{''} = A_{0min} + (A_0 + 1) \cdot \frac{A_{0max} - A_{0min}}{1 - (-1)}
 
 旋转偏移量：通过读取关节轴线的方向和初始旋转偏置，确定了每个自由度的运动范围和旋转基准。
 
+如图\ref{fig:urdf_structure}所示，URDF文件中的关节参数为后续的运动学计算提供了基础数据，使得系统能够准确地将回归头输出的角度映射到机器人手部的实际位姿。
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.95\textwidth]{figure/urdf.png}
+  \captionsetup{font=footnotesize}
+  \caption{URDF关节示意图。关节参数主要包括关节连接关系、位置偏移量和旋转偏移量等信息，为后续的运动学计算提供基础数据。}
+  \label{fig:urdf_structure}
+  % \vspace{-0.5cm}
+\end{figure*}
 \subsection{前向运动学计算}
 在获取固定结构参数后，运动学模块接收来自回归头的实时关节角度输入。利用前向运动学（FK）算法，系统沿运动链逐级进行齐次变换矩阵的连乘运算：
 
@@ -284,5 +296,19 @@ L_{col} = \sum_{c_{i,j} < c_{min}} -\log(c_{i,j}).
 L_{total}=\lambda_{fv} \cdot L_{fv} + \lambda_{tv} \cdot L_{tv} + \lambda_{td} \cdot L_{td} + \lambda_{col} \cdot L_{col}.
 \end{equation}
 \section{本章小结}
-本章首先介绍本论文参考方法PoseFormerV1的原理，以此引出了使用时空特征融合的思路处理人机重定向问题。随后详细阐述了本文提出的基于时空Transformer架构的运动重定向方法TransRetarget。
-其中分别介绍了方法的空间编码器和时间编码器的构建。然后也介绍了运动学模块的使用，最后也介绍了损失函数的构建。
+本章详细阐述了本文提出的基于时空 Transformer 架构的人机运动重定向算法TransRetarget。
+针对现有重定向方法存在的帧间动作不连贯、对输入噪声敏感及跨平台适配困难等核心问题，本章构建了完整的端到端算法框架。
+
+首先，我们分析了本论文的主要参考方法 PoseFormerV1。
+
+其次介绍了专用的空间编码器与时间编码器的设计。
+空间编码器利用特征线性投影与多头自注意力机制，精准提取单帧手部姿态的内部拓扑结构与几何特征；
+时间编码器则通过时序位置嵌入与长距离依赖建模，有效过滤高频抖动并确保动作序列的物理平滑性与时序一致性。
+
+然后，本章介绍了回归头模块，其负责将高维时空特征映射为符合机器人物理极限的关节角度向量。
+结合基于 URDF 解析的运动学模块，系统实现了从虚拟姿态到物理实体位姿的精确转换，并具备良好的跨平台适配能力。
+
+最后，设计了一套复合损失函数，涵盖手指摆动、指尖位置、指尖距离及碰撞损失四个维度，
+从局部配置到全局安全性全方位引导模型优化。本章所提出的理论模型与算法设计，解决了异构手映射的关键难题，
+为后续章节的系统实现与实验验证奠定了坚实的理论与技术基础。
+
