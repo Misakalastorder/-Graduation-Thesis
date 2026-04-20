@@ -160,22 +160,6 @@
   Learning with {{PyTorch Geometric}}}\bibmark{[J]}\@. \bibjournal{arXiv
   preprint arXiv:1903.02428}\@, \bibyear{2019}\@.
 
-\bibitem{zhouImprovingSignLanguage2021}
-\bibauthor{ZHOU H\@, ZHOU W\@, QI W, et~al}\@. \bibtitle{Improving Sign
-  Language Translation with Monolingual Data by Sign
-  Back-Translation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
-  {{IEEE}}/{{CVF}} Conference on Computer Vision and Pattern Recognition}\@.
-  \bibyear{2021}\thinspace{}\textnormal{:
-  }\bibpages{1316\thinspace{}\textnormal{--}\thinspace{}1325}\@.
-
-\bibitem{imambiPyTorch2021}
-\bibauthor{IMAMBI S\@, PRAKASH K~B\@, KANAGACHIDAMBARESAN G~R}\@.
-  \bibtitle{{{PyTorch}}}\bibmark{[G]} //\thinspace{}\bibbooktitle{Programming
-  with {{TensorFlow}}: Solution for Edge Computing Applications}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
-  \bibyear{2021}\thinspace{}\textnormal{:
-  }\bibpages{87\thinspace{}\textnormal{--}\thinspace{}104}\@.
-
 \bibitem{vulinImprovedLearningRobot2021}
 \bibauthor{VULIN N\@, CHRISTEN S\@, STEV{\v S}I{\'C} S, et~al}\@.
   \bibtitle{Improved Learning of Robot Manipulation Tasks via Tactile Intrinsic
@@ -210,5 +194,21 @@
   Complex Dexterous Manipulation with Deep Reinforcement Learning and
   Demonstrations}\bibmark{[J]}\@. \bibjournal{arXiv preprint
   arXiv:1709.10087}\@, \bibyear{2017}\@.
+
+\bibitem{zhouImprovingSignLanguage2021}
+\bibauthor{ZHOU H\@, ZHOU W\@, QI W, et~al}\@. \bibtitle{Improving Sign
+  Language Translation with Monolingual Data by Sign
+  Back-Translation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  {{IEEE}}/{{CVF}} Conference on Computer Vision and Pattern Recognition}\@.
+  \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{1316\thinspace{}\textnormal{--}\thinspace{}1325}\@.
+
+\bibitem{imambiPyTorch2021}
+\bibauthor{IMAMBI S\@, PRAKASH K~B\@, KANAGACHIDAMBARESAN G~R}\@.
+  \bibtitle{{{PyTorch}}}\bibmark{[G]} //\thinspace{}\bibbooktitle{Programming
+  with {{TensorFlow}}: Solution for Edge Computing Applications}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
+  \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{87\thinspace{}\textnormal{--}\thinspace{}104}\@.
 
 \end{thebibliography}

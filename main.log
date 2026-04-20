@@ -1,43 +1,43 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.9.5)  8 APR 2026 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.20)  20 APR 2026 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
 (classes/sysuthesis.cls
 
 LaTeX Warning: You have requested document class `classes/sysuthesis',
                but the document class provides `sysuthesis'.
 
 Document Class: sysuthesis 
-(C:\Program Files (x86)\MikTex\tex/latex/ctex\ctexbook.cls
-(C:\Program Files (x86)\MikTex\tex/latex/ctex/config\ctexbackend.cfg
+(D:\software\MikTex\tex/latex/ctex\ctexbook.cls
+(D:\software\MikTex\tex/latex/ctex/config\ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+(D:\software\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
 
-(C:\Program Files (x86)\MikTex\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+(D:\software\MikTex\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count271
 \g__pdfannot_backend_int=\count272
 \g__pdfannot_backend_link_int=\count273
 ))
 Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTE
 X)
-(C:\Program Files (x86)\MikTex\tex/latex/ctex\ctexhook.sty
+(D:\software\MikTex\tex/latex/ctex\ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/ctex\ctexpatch.sty
+(D:\software\MikTex\tex/latex/ctex\ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/base\fix-cm.sty
+(D:\software\MikTex\tex/latex/base\fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(C:\Program Files (x86)\MikTex\tex/latex/base\ts1enc.def
+(D:\software\MikTex\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1)
@@ -301,12 +301,12 @@ t line 194.
 \g__ctex_section_depth_int=\count275
 \g__ctex_font_size_int=\count276
 
-(C:\Program Files (x86)\MikTex\tex/latex/ctex/config\ctexopts.cfg
+(D:\software\MikTex\tex/latex/ctex/config\ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/base\book.cls
+(D:\software\MikTex\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Program Files (x86)\MikTex\tex/latex/base\bk12.clo
+(D:\software\MikTex\tex/latex/base\bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count277
@@ -322,14 +322,14 @@ File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen149
 )
-(C:\Program Files (x86)\MikTex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(D:\software\MikTex\tex/latex/ctex/engine\ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
 
-(C:\Program Files (x86)\MikTex\tex/xelatex/xecjk\xeCJK.sty
+(D:\software\MikTex\tex/xelatex/xecjk\xeCJK.sty
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
-(C:\Program Files (x86)\MikTex\tex/latex/l3packages/xtemplate\xtemplate.sty
-Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+(D:\software\MikTex\tex/latex/l3packages/xtemplate\xtemplate.sty
+Package: xtemplate 2025-10-09 L3 Experimental prototype document functions
 )
 \l__xeCJK_tmp_int=\count286
 \l__xeCJK_tmp_box=\box54
@@ -392,14 +392,14 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 \l__xeCJK_verb_case_int=\count297
 \l__xeCJK_verb_exspace_skip=\skip57
 
-(C:\Program Files (x86)\MikTex\tex/latex/fontspec\fontspec.sty
-(C:\Program Files (x86)\MikTex\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+(D:\software\MikTex\tex/latex/fontspec\fontspec.sty
+(D:\software\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 
-(C:\Program Files (x86)\MikTex\tex/latex/fontspec\fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+(D:\software\MikTex\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count298
 \l__fontspec_language_int=\count299
@@ -416,11 +416,11 @@ X
 \l__fontspec_tmpb_dim=\dimen178
 \l__fontspec_tmpc_dim=\dimen179
 
-(C:\Program Files (x86)\MikTex\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+(D:\software\MikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Program Files (x86)\MikTex\tex/latex/fontspec\fontspec.cfg)))
-(C:\Program Files (x86)\MikTex\tex/xelatex/xecjk\xeCJK.cfg
+(D:\software\MikTex\tex/latex/fontspec\fontspec.cfg)))
+(D:\software\MikTex\tex/xelatex/xecjk\xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 \ccwd=\dimen180
@@ -428,27 +428,27 @@ File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 )
 \l__ctex_ziju_dim=\dimen181
 
-(C:\Program Files (x86)\MikTex\tex/latex/zhnumber\zhnumber.sty
+(D:\software\MikTex\tex/latex/zhnumber\zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count309
 \l__zhnum_tmp_int=\count310
 
-(C:\Program Files (x86)\MikTex\tex/latex/zhnumber\zhnumber-utf8.cfg
+(D:\software\MikTex\tex/latex/zhnumber\zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
 \l__ctex_heading_skip=\skip59
 
-(C:\Program Files (x86)\MikTex\tex/latex/ctex/scheme\ctex-scheme-chinese-book.d
-ef
+(D:\software\MikTex\tex/latex/ctex/scheme\ctex-scheme-chinese-book.def
 File: ctex-scheme-chinese-book.def 2022/07/14 v2.5.10 Chinese scheme for book (
 CTEX)
- (C:\Program Files (x86)\MikTex\tex/latex/ctex/config\ctex-name-utf8.cfg
+
+(D:\software\MikTex\tex/latex/ctex/config\ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(C:\Program Files (x86)\MikTex\tex/latex/ctex\ctex-cs4size.clo
+(D:\software\MikTex\tex/latex/ctex\ctex-cs4size.clo
 File: ctex-cs4size.clo 2022/07/14 v2.5.10 cs4size option (CTEX)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/ctex/fontset\ctex-fontset-windows.def
+(D:\software\MikTex\tex/latex/ctex/fontset\ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
 
@@ -482,7 +482,8 @@ Package fontspec Info:
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
 
-)) (C:\Program Files (x86)\MikTex\tex/latex/ctex/config\ctex.cfg
+))
+(D:\software\MikTex\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
 
@@ -519,17 +520,17 @@ ext;"
 text;"
 
 
-(C:\Program Files (x86)\MikTex\tex/latex/geometry\geometry.sty
+(D:\software\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\keyval.sty
+(D:\software\MikTex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Program Files (x86)\MikTex\tex/generic/iftex\ifvtex.sty
+(D:\software\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Program Files (x86)\MikTex\tex/generic/iftex\iftex.sty
+(D:\software\MikTex\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count311
@@ -545,8 +546,8 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen189
 \Gm@dimlist=\toks18
 
-(C:\Program Files (x86)\MikTex\tex/latex/geometry\geometry.cfg))
-(C:\Program Files (x86)\MikTex\tex/latex/fancyhdr\fancyhdr.sty
+(D:\software\MikTex\tex/latex/geometry\geometry.cfg))
+(D:\software\MikTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip60
@@ -565,7 +566,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip73
 \@temptokenb=\toks19
 )
-(C:\Program Files (x86)\MikTex\tex/latex/booktabs\booktabs.sty
+(D:\software\MikTex\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen190
 \lightrulewidth=\dimen191
@@ -585,7 +586,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count317
 \@thisrulewidth=\dimen258
 )
-(C:\Program Files (x86)\MikTex\tex/latex/tools\calc.sty
+(D:\software\MikTex\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count318
 \calc@Bcount=\count319
@@ -598,30 +599,30 @@ LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count320
 \calc@Cskip=\skip76
 )
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\graphicx.sty
+(D:\software\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\graphics.sty
+(D:\software\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\trig.sty
+(D:\software\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/graphics-cfg\graphics.cfg
+(D:\software\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics-def\xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+(D:\software\MikTex\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen261
 \Gin@req@width=\dimen262
 )
-(C:\Program Files (x86)\MikTex\tex/latex/caption\caption.sty
+(D:\software\MikTex\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Program Files (x86)\MikTex\tex/latex/caption\caption3.sty
+(D:\software\MikTex\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen263
 \captionmargin=\dimen264
@@ -636,31 +637,31 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count321
 \c@continuedfloat=\count322
 )
-(C:\Program Files (x86)\MikTex\tex/latex/caption\subcaption.sty
+(D:\software\MikTex\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count323
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count324
 )
-(C:\Program Files (x86)\MikTex\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+(D:\software\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip77
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files (x86)\MikTex\tex/latex/amsmath\amstext.sty
+(D:\software\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Program Files (x86)\MikTex\tex/latex/amsmath\amsgen.sty
+(D:\software\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen271
 ))
-(C:\Program Files (x86)\MikTex\tex/latex/amsmath\amsbsy.sty
+(D:\software\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen272
 )
-(C:\Program Files (x86)\MikTex\tex/latex/amsmath\amsopn.sty
+(D:\software\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count325
@@ -708,13 +709,13 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip78
 \multlinetaggap=\skip79
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Program Files (x86)\MikTex\tex/latex/amsfonts\amssymb.sty
+(D:\software\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Program Files (x86)\MikTex\tex/latex/amsfonts\amsfonts.sty
+(D:\software\MikTex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -722,7 +723,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Program Files (x86)\MikTex\tex/latex/amscls\amsthm.sty
+(D:\software\MikTex\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks25
 \thm@bodyfont=\toks26
@@ -734,7 +735,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip82
 \dth@everypar=\toks30
 )
-(C:\Program Files (x86)\MikTex\tex/latex/listings\listings.sty
+(D:\software\MikTex\tex/latex/listings\listings.sty
 \lst@mode=\count337
 \lst@gtempboxa=\box58
 \lst@token=\toks31
@@ -748,27 +749,33 @@ Package: amsthm 2020/05/29 v2.20.6
 \lst@lineno=\count342
 \lst@maxwidth=\dimen283
 
-(C:\Program Files (x86)\MikTex\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+(D:\software\MikTex\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+(D:\software\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count343
 \lst@skipnumbers=\count344
 \lst@framebox=\box59
 )
-(C:\Program Files (x86)\MikTex\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+(D:\software\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
 
-(C:\Program Files (x86)\MikTex\tex/xelatex/xecjk\xeCJK-listings.sty
+(D:\software\MikTex\tex/xelatex/xecjk\xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count345
 \l__xeCJK_listings_flag_int=\count346
 )
-(C:\Program Files (x86)\MikTex\tex/latex/tools\longtable.sty
-Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(D:\software\MikTex\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip83
 \LTright=\skip84
 \LTpre=\skip85
@@ -786,23 +793,22 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \c@LT@chunks=\count351
 \LT@p@ftn=\toks32
 )
-(C:\Program Files (x86)\MikTex\tex/latex/placeins\placeins.sty
+(D:\software\MikTex\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-(packages/algorithm2e.sty
+) (packages/algorithm2e.sty
 
 LaTeX Warning: You have requested package `packages/algorithm2e',
                but the package provides `algorithm2e'.
 
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count352
-(C:\Program Files (x86)\MikTex\tex/latex/base\ifthen.sty
+(D:\software\MikTex\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/tools\xspace.sty
+(D:\software\MikTex\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/relsize\relsize.sty
+(D:\software\MikTex\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 ********************************************************
@@ -845,7 +851,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count355
 \algocf@algoframe=\box71
 \algocf@algobox=\box72
-) (C:\Program Files (x86)\MikTex\tex/latex/enumitem\enumitem.sty
+) (D:\software\MikTex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip103
 \enit@outerparindent=\dimen291
@@ -854,15 +860,15 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count356
 \enitdp@description=\count357
 )
-(C:\Program Files (x86)\MikTex\tex/latex/bbm\bbm.sty
+(D:\software\MikTex\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(C:\Program Files (x86)\MikTex\tex/latex/tools\bm.sty
-Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+(D:\software\MikTex\tex/latex/tools\bm.sty
+Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
@@ -871,14 +877,14 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(C:\Program Files (x86)\MikTex\tex/latex/tocbibind\tocbibind.sty
+(D:\software\MikTex\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (C:\Program Files (x86)\MikTex\tex/latex/tocloft\tocloft.sty
+) (D:\software\MikTex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip104
@@ -918,7 +924,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip136
 \cfttabnumwidth=\skip137
 )
-(C:\Program Files (x86)\MikTex\tex/latex/wrapfig\wrapfig.sty
+(D:\software\MikTex\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen292
 \WF@size=\dimen293
 \c@WF@wrappedlines=\count360
@@ -926,11 +932,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Program Files (x86)\MikTex\tex/latex/colortbl\colortbl.sty
+(D:\software\MikTex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 
-(C:\Program Files (x86)\MikTex\tex/latex/tools\array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+(D:\software\MikTex\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen294
 \ar@mcellbox=\box75
 \extrarowheight=\dimen295
@@ -939,29 +945,29 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \backup@length=\skip139
 \ar@cellbox=\box76
 )
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\color.sty
+(D:\software\MikTex\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics-cfg\color.cfg
+(D:\software\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 149.
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\mathcolor.ltx))
+(D:\software\MikTex\tex/latex/graphics\mathcolor.ltx))
 \everycr=\toks36
 \minrowclearance=\skip140
 \rownum=\count361
 )
-(C:\Program Files (x86)\MikTex\tex/latex/xcolor\xcolor.sty
+(D:\software\MikTex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics-cfg\color.cfg
+(D:\software\MikTex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
 
-(C:\Program Files (x86)\MikTex\tex/latex/graphics\mathcolor.ltx)
+(D:\software\MikTex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -971,18 +977,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:\Program Files (x86)\MikTex\tex/latex/makecell\makecell.sty
+(D:\software\MikTex\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen296
 \c@nlinenum=\count362
 \TeXr@lab=\toks37
 )
-(C:\Program Files (x86)\MikTex\tex/latex/footmisc\footmisc.sty
+(D:\software\MikTex\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
 \FN@temptoken=\toks38
 \footnotemargin=\dimen297
 
-(C:\Program Files (x86)\MikTex\tex/latex/bigfoot\perpage.sty
+(D:\software\MikTex\tex/latex/bigfoot\perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 \c@abspage=\count363
 )
@@ -996,35 +1002,35 @@ Package footmisc Info: Declaring symbol style lamport* on input line 597.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
 .
 )
-(C:\Program Files (x86)\MikTex\tex/latex/setspace\setspace.sty
+(D:\software\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Program Files (x86)\MikTex\tex/latex/datetime\datetime.sty
+(D:\software\MikTex\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-(C:\Program Files (x86)\MikTex\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+(D:\software\MikTex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count365
 )
-(C:\Program Files (x86)\MikTex\tex/latex/fmtcount\fmtcount.sty
-Package: fmtcount 2025/08/23 v3.11 Displaying the values of LaTeX counters (NT,
+(D:\software\MikTex\tex/latex/fmtcount\fmtcount.sty
+Package: fmtcount 2025/12/02 v3.12 Displaying the values of LaTeX counters (NT,
 VB,NE)
 
-(C:\Program Files (x86)\MikTex\tex/latex/xkeyval\xkeyval.sty
+(D:\software\MikTex\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Program Files (x86)\MikTex\tex/generic/xkeyval\xkeyval.tex
-(C:\Program Files (x86)\MikTex\tex/generic/xkeyval\xkvutils.tex
+(D:\software\MikTex\tex/generic/xkeyval\xkeyval.tex
+(D:\software\MikTex\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
 \XKV@depth=\count366
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Program Files (x86)\MikTex\tex/latex/fmtcount\fcprefix.sty
+(D:\software\MikTex\tex/latex/fmtcount\fcprefix.sty
 Package: fcprefix 2012/09/28
 
-(C:\Program Files (x86)\MikTex\tex/latex/fmtcount\fcnumparser.sty
+(D:\software\MikTex\tex/latex/fmtcount\fcnumparser.sty
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count367
 ))
@@ -1038,7 +1044,7 @@ Package: fcnumparser 2017/06/15
 \@DT@loopN=\count375
 \@DT@X=\count376
 )
-(C:\Program Files (x86)\MikTex\tex/latex/datetime\datetime-defaults.sty
+(D:\software\MikTex\tex/latex/datetime\datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count377
@@ -1062,17 +1068,17 @@ LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks41
 \dt@b=\toks42
 )
-(C:\Program Files (x86)\MikTex\tex/generic/genmisc\nth.sty
+(D:\software\MikTex\tex/generic/genmisc\nth.sty
 Package: nth 2002/02/27
 )
-(C:\Program Files (x86)\MikTex\tex/latex/multirow\multirow.sty
+(D:\software\MikTex\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip141
 \multirow@cntb=\count392
 \multirow@dima=\skip142
 \bigstrutjot=\dimen298
 )
-(C:\Program Files (x86)\MikTex\tex/latex/changepage\changepage.sty
+(D:\software\MikTex\tex/latex/changepage\changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count393
 \cp@tempcnt=\count394
@@ -1087,57 +1093,57 @@ Package xeCJK Warning: Redefining CJKfamily `zhsong' (SimSun).
 \c@definition=\count399
 \c@remark=\count400
 \c@eg=\count401
-(C:\Program Files (x86)\MikTex\tex/latex/natbib\natbib.sty
+(D:\software\MikTex\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip143
 \bibsep=\skip144
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count402
 )
-(C:\Program Files (x86)\MikTex\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+(D:\software\MikTex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
-(C:\Program Files (x86)\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
+(D:\software\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(D:\software\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/generic/pdfescape\pdfescape.sty
+(D:\software\MikTex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Program Files (x86)\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+(D:\software\MikTex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+(D:\software\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Program Files (x86)\MikTex\tex/generic/infwarerr\infwarerr.sty
+(D:\software\MikTex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-(C:\Program Files (x86)\MikTex\tex/latex/hycolor\hycolor.sty
+(D:\software\MikTex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+(D:\software\MikTex\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(C:\Program Files (x86)\MikTex\tex/latex/refcount\refcount.sty
+(D:\software\MikTex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+(D:\software\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Program Files (x86)\MikTex\tex/latex/kvoptions\kvoptions.sty
+(D:\software\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count403
 )
-(C:\Program Files (x86)\MikTex\tex/generic/stringenc\stringenc.sty
+(D:\software\MikTex\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -1145,70 +1151,70 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count404
 \Hy@pagecounter=\count405
 
-(C:\Program Files (x86)\MikTex\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+(D:\software\MikTex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 )
-(C:\Program Files (x86)\MikTex\tex/generic/intcalc\intcalc.sty
+(D:\software\MikTex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count406
 
-(C:\Program Files (x86)\MikTex\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+(D:\software\MikTex\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Option `hyperfootnotes' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Option `hyperfootnotes' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count407
 
-(C:\Program Files (x86)\MikTex\tex/latex/url\url.sty
+(D:\software\MikTex\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen300
 
-(C:\Program Files (x86)\MikTex\tex/generic/bitset\bitset.sty
+(D:\software\MikTex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Program Files (x86)\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+(D:\software\MikTex\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count408
 \Field@Width=\dimen301
 \Fld@charsize=\dimen302
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count409
 \c@Item=\count410
 \c@Hfootnote=\count411
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-(C:\Program Files (x86)\MikTex\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+(D:\software\MikTex\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \pdfm@box=\box77
 \c@Hy@AnnotLevel=\count412
 \HyField@AnnotCount=\count413
 \Fld@listcount=\count414
 \c@bookmark@seq@number=\count415
 
-(C:\Program Files (x86)\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(D:\software\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Program Files (x86)\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+(D:\software\MikTex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -1216,11 +1222,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip145
 )
-(C:\Program Files (x86)\MikTex\tex/latex/footnotebackref\footnotebackref.sty
+(D:\software\MikTex\tex/latex/footnotebackref\footnotebackref.sty
 Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger L
 ange)
 
-(C:\Program Files (x86)\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+(D:\software\MikTex\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \c@BackrefHyperFootnoteCounter=\count416
@@ -1357,20 +1363,19 @@ Package caption Info: changepage package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-(C:\Program Files (x86)\MikTex\tex/latex/caption\ltcaption.sty
+(D:\software\MikTex\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count417
 
-(C:\Program Files (x86)\MikTex\tex/latex/fmtcount\fc-english.def
+(D:\software\MikTex\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package hyperref Info: Option `CJKbookmarks' set `true' on input line 8.
 Package hyperref Info: Link coloring OFF on input line 8.
- (main.out)
-(main.out)
+ (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -1425,13 +1430,14 @@ ant=0.167;"
 LaTeX Font Info:    Calculating math sizes for size <22> on input line 13.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
- (C:\Program Files (x86)\MikTex\tex/latex/amsfonts\umsa.fd
+
+(D:\software\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
-(C:\Program Files (x86)\MikTex\tex/latex/amsfonts\umsb.fd
+(D:\software\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -1464,8 +1470,6 @@ Underfull \hbox (badness 10000) detected at line 13
 \TU/SimHei(0)/m/n/15 专 业
  []
 
-
-
 [1
 
 
@@ -1490,11 +1494,9 @@ Underfull \hbox (badness 10000) detected at line 14
 \TU/SimHei(0)/m/n/16.06 专 业
  []
 
-
-
 [2
 
-]
+] (docs/disclaim.tex
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "FangSong/BI" (it probably
@@ -1522,40 +1524,6 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 
-
-LaTeX Font Warning: Font shape `TU/FangSong(0)/b/n' undefined
-(Font)              using `TU/FangSong(0)/m/n' instead on input line 16.
-
-
-Overfull \hbox (12.79999pt too wide) in alignment at lines 16--16
- [] [] 
- []
-
-
-Overfull \hbox (12.79999pt too wide) in alignment at lines 16--16
- [] [] 
- []
-
-
-Overfull \hbox (12.79999pt too wide) in alignment at lines 16--16
- [] [] 
- []
-
-
-Overfull \hbox (12.79999pt too wide) in alignment at lines 16--16
- [] [] 
- []
-
-
-Overfull \hbox (12.79999pt too wide) in alignment at lines 16--16
- [] [] 
- []
-
-[3
-
-]
-
-[4] (docs/disclaim.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1570,13 +1538,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-)
-
-[5
+) [3
 
 
 ]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1587,7 +1552,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1604,8 +1568,6 @@ nsformer, Motion Retargeting, Spatio-Temporal Features, Dextrous Hands
  []
 
 
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1613,7 +1575,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [3] (main.toc
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1629,7 +1590,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1641,8 +1601,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (docs/Chapter_01.tex
 第1章
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1659,7 +1617,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1671,7 +1628,6 @@ Underfull \vbox (badness 4913) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1679,7 +1635,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [3])
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1694,8 +1649,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 第2章
 File: figure/alfk.jpg Graphic file (type bmp)
 <figure/alfk.jpg>
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1714,7 +1667,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1722,7 +1674,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [6]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1733,7 +1684,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7]
 File: figure/TeachMe.png Graphic file (type bmp)
 <figure/TeachMe.png>
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1750,8 +1700,6 @@ File: figure/LatentGCN.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1760,7 +1708,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 
@@ -1775,7 +1722,6 @@ Underfull \vbox (badness 7326) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1783,7 +1729,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [11]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1796,7 +1741,6 @@ Underfull \vbox (badness 1248) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1804,7 +1748,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [13])
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1828,8 +1771,6 @@ mm/m/it/12.045 x[]; x[]; [] ; x[]\OMS/cmsy/m/n/12.045 g$\TU/SimSun(0)/m/n/12.04
  []
 
 
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1844,7 +1785,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1854,7 +1794,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16]
 File: figure/model_framework.jpg Graphic file (type bmp)
 <figure/model_framework.jpg>
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1868,7 +1807,6 @@ File: figure/nextwork_framework.jpg Graphic file (type bmp)
 <figure/nextwork_framework.jpg>
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1877,7 +1815,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1885,7 +1822,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [19]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1898,7 +1834,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1907,7 +1842,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 
@@ -1925,7 +1859,6 @@ Underfull \vbox (badness 5862) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1937,7 +1870,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1945,7 +1877,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [24]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1958,7 +1889,6 @@ Underfull \vbox (badness 2573) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -1966,7 +1896,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [26])
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1979,11 +1908,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (docs/Chapter_04.tex
 第4章
-File: figure/Linkerhandvirtual.png Graphic file (type bmp)
-<figure/Linkerhandvirtual.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 
@@ -2000,13 +1926,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-File: figure/Shadowhandvirtual.png Graphic file (type bmp)
-<figure/Shadowhandvirtual.png>
-File: figure/Inspirehandvirtual.png Graphic file (type bmp)
-<figure/Inspirehandvirtual.png>
-
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2018,6 +1938,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29]
 
+Package natbib Warning: Citation `RL28' on page 30 undefined on input line 64.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2026,14 +1952,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [30]
-Overfull \hbox (8.7849pt too wide) in paragraph at lines 109--120
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+File: figure/TSnet.png Graphic file (type bmp)
+<figure/TSnet.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2043,15 +1963,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [31]
-File: figure/Transformerspatialattentionl.png Graphic file (type bmp)
-<figure/Transformerspatialattentionl.png>
-File: figure/Transformerspatialattentionr.png Graphic file (type bmp)
-<figure/Transformerspatialattentionr.png>
-
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2059,15 +1970,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[32]
-File: figure/Transformertemporalattentionl.png Graphic file (type bmp)
-<figure/Transformertemporalattentionl.png>
-File: figure/Transformertemporalattentionr.png Graphic file (type bmp)
-<figure/Transformertemporalattentionr.png>
-File: figure/handscompare.jpg Graphic file (type bmp)
-<figure/handscompare.jpg>
-
-
+[32])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2076,6 +1979,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [33]
+\openout2 = `docs/Chapter_05.aux'.
+
+ (docs/Chapter_05.tex
+第5章
+File: figure/Linkerhandvirtual.png Graphic file (type bmp)
+<figure/Linkerhandvirtual.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2084,10 +1996,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[34]
+[34
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+
+
+]
+File: figure/Shadowhandvirtual.png Graphic file (type bmp)
+<figure/Shadowhandvirtual.png>
+File: figure/Inspirehandvirtual.png Graphic file (type bmp)
+<figure/Inspirehandvirtual.png>
+
+Underfull \vbox (badness 4819) has occurred while \output is active []
 
 
 
@@ -2099,7 +2020,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -2107,9 +2027,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [36]
-File: figure/grasping_performance.jpg Graphic file (type bmp)
-<figure/grasping_performance.jpg>
+Overfull \hbox (8.7849pt too wide) in paragraph at lines 109--120
+ [][] 
+ []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2118,7 +2041,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[37])
+[37]
+File: figure/Transformerspatialattentionl.png Graphic file (type bmp)
+<figure/Transformerspatialattentionl.png>
+File: figure/Transformerspatialattentionr.png Graphic file (type bmp)
+<figure/Transformerspatialattentionr.png>
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2128,14 +2058,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [38]
-\openout2 = `docs/Chapter_05.aux'.
-
- (docs/Chapter_05.tex
-第5章
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+File: figure/Transformertemporalattentionl.png Graphic file (type bmp)
+<figure/Transformertemporalattentionl.png>
+File: figure/Transformertemporalattentionr.png Graphic file (type bmp)
+<figure/Transformertemporalattentionr.png>
+File: figure/handscompare.jpg Graphic file (type bmp)
+<figure/handscompare.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2144,17 +2072,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[39
-
-
-
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
+[39]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2164,12 +2082,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40]
 
-Package natbib Warning: Citation `RL28' on page 41 undefined on input line 64.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2179,10 +2092,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [41]
-File: figure/TSnet.png Graphic file (type bmp)
-<figure/TSnet.png>
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2191,6 +2100,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [42]
+File: figure/grasping_performance.jpg Graphic file (type bmp)
+<figure/grasping_performance.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2200,7 +2111,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [43])
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2218,7 +2128,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -2233,7 +2142,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ])
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -2241,7 +2149,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [46] (main.bbl
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2256,7 +2163,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.64723pt}.
@@ -2264,7 +2170,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [48])
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2276,7 +2181,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `docs/Acknowledgements.aux'.
 
  (docs/Acknowledgements.tex)
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2297,7 +2201,7 @@ Package natbib Warning: There were undefined citations.
 (docs/Chapter_04.aux) (docs/Chapter_05.aux) (docs/Chapter_06.aux)
 (docs/Acknowledgements.aux))
  ***********
-LaTeX2e <2025-06-01> patch level 1
+LaTeX2e <2025-11-01>
 L3 programming layer <2022/08/05>
  ***********
 
@@ -2305,15 +2209,15 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 60293A6CBACD87C8BD63A0A26D6CD541;4539.
+(rerunfilecheck)             Checksum: 9AFBDBA1F35A92585998F4F7A8913226;4539.
  ) 
 Here is how much of TeX's memory you used:
- 25392 strings out of 403249
- 517755 string characters out of 5463966
- 979467 words of memory out of 5000000
- 53345 multiletter control sequences out of 15000+600000
- 663975 words of font info for 242 fonts, out of 8000000 for 9000
+ 25336 strings out of 402982
+ 513858 string characters out of 5453855
+ 984248 words of memory out of 5000000
+ 53556 multiletter control sequences out of 15000+600000
+ 664863 words of font info for 241 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,13n,125p,1197b,796s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,13n,125p,1197b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (60 pages).
+Output written on main.pdf (58 pages).
