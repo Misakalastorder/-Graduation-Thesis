@@ -1,0 +1,50 @@
+@article{JXXB202515008,
+author = {  陶永 and     万嘉昊 and     王田苗 and     熊友军 and     王柏村 and     张文博 and     邓昌义 and     陶雨 and     杨赓 and 魏洪兴},
+title = {构建具身智能新范式：人形机器人技术现状及发展趋势综述},
+journal = {机械工程学报},
+volume = {61},
+number = {15},
+pages = {121-147},
+year = {2025},
+issn = {0577-6686},
+}    
+
+@article{ CGQJ202511018,
+author = { 胡俊伟 and  何海洋 and  雷英佳 and  陈健 and  刘坤 and  董二宝 },
+title = {双臂协作机器人的增强现实人机交互遥操作系统},
+journal = {传感器与微系统},
+volume = {44},
+number = {11},
+pages = {87-92},
+year = {2025},
+issn = {2096-2436},
+doi = {10.13873/J.1000-9787(2025)11-0087-06}
+}
+
+@article{KJKZ202502003,
+author = {  张玲俊 and     汤亮 and 刘磊},
+title = {多技能人形机器人全身运动策略智能生成方法},
+journal = {空间控制技术与应用},
+volume = {51},
+number = {02},
+pages = {28-40},
+year = {2025},
+issn = {1674-1579},
+}    
+
+@inproceedings{ICRA2026LYC,
+  title = {DexTele: {{A Dual-Arm Dexterous Teleoperation System Based}} on {{Motion
+Retargeting}} and {{Adaptive Force Control}}},
+  booktitle = {2026 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Lai, Yuanchuan and Gao, Qing and Liang, Ziyan and Cheng, Xianfeng and Hu, Junjie and Ju, Zhaojie},
+  year = 2026,
+  publisher = {IEEE}
+}
+
+@inproceedings{ICRA2026CXF,
+  title = {Viper: {{ Verifiable Imitation Learning Policy}} for {{Efficient Robotic Manipulation}}},
+  booktitle = {2026 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Cheng, Xianfeng and Gao, Qing and Chen, Guangyu and Xiong, Rui and Hu, Junjie and Guo, Yulan and Ju, Zhaojie},
+  year = 2026,
+  publisher = {IEEE}
+}

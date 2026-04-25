@@ -77,39 +77,40 @@
 \contentsline {subsection}{\numberline {4.3.1}强化学习简述}{31}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}力矩反馈的自适应关节角度调整}{31}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}师生策略}{32}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}动作和状态空间}{32}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}奖励机制}{32}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}交互强化与重定向结果的融合}{33}{subsection.4.3.6}%
-\contentsline {chapter}{\numberline {第5章\hspace {.3em}}实验部分}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1}实验配置}{35}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}数据集}{35}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}训练设置}{35}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}评测指标}{35}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}评测平台}{36}{subsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.4.1}Linkerhand}{36}{subsubsection.5.1.4.1}%
-\contentsline {subsubsection}{\numberline {5.1.4.2}Shadow Hand}{36}{subsubsection.5.1.4.2}%
-\contentsline {subsubsection}{\numberline {5.1.4.3}Inspire}{37}{subsubsection.5.1.4.3}%
-\contentsline {section}{\numberline {5.2}不同方法的对比实验}{37}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}NLO}{37}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}VMR}{37}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}结果展示}{38}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}消融实验}{38}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}实验设置}{38}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}结果展示}{38}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Transformer结构作用可视化}{39}{section.5.4}%
-\contentsline {section}{\numberline {5.5}多平台实验}{40}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}pybullet仿真平台}{40}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Linker 灵巧手平台实验}{42}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Shadow 灵巧手平台实验}{42}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Inspire 灵巧手平台实验}{42}{subsection.5.5.4}%
-\contentsline {subsection}{\numberline {5.5.5}多平台实验结果}{42}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}单机现实世界测试}{43}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}实验环境构建}{43}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}实验对象与任务设计}{43}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}实验结果}{44}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5.7}本章小结}{45}{section.5.7}%
-\contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{46}{chapter.6}%
-\contentsline {section}{\numberline {6.1}工作总结}{46}{section.6.1}%
-\contentsline {section}{\numberline {6.2}研究展望}{47}{section.6.2}%
-\contentsline {chapter}{参考文献}{48}{chapter*.26}%
-\contentsline {chapter}{致谢}{51}{chapter*.27}%
+\contentsline {subsection}{\numberline {4.3.4}PD 控制器}{32}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}奖励机制}{33}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}动作和状态空间}{34}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}交互强化与重定向结果的融合}{34}{subsection.4.3.7}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}实验部分}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}实验配置}{36}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}数据集}{36}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}训练设置}{36}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}评测指标}{36}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}评测平台}{37}{subsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.1}Linkerhand}{37}{subsubsection.5.1.4.1}%
+\contentsline {subsubsection}{\numberline {5.1.4.2}Shadow Hand}{37}{subsubsection.5.1.4.2}%
+\contentsline {subsubsection}{\numberline {5.1.4.3}Inspire}{38}{subsubsection.5.1.4.3}%
+\contentsline {section}{\numberline {5.2}不同方法的对比实验}{38}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}NLO}{38}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}VMR}{38}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}结果展示}{39}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}消融实验}{39}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}实验设置}{39}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}结果展示}{39}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Transformer结构作用可视化}{40}{section.5.4}%
+\contentsline {section}{\numberline {5.5}多平台实验}{41}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}pybullet仿真平台}{41}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Linker 灵巧手平台实验}{43}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Shadow 灵巧手平台实验}{43}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Inspire 灵巧手平台实验}{43}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}多平台实验结果}{43}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}单机现实世界测试}{44}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}实验环境构建}{44}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}实验对象与任务设计}{44}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}实验结果}{45}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}本章小结}{46}{section.5.7}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{47}{chapter.6}%
+\contentsline {section}{\numberline {6.1}工作总结}{47}{section.6.1}%
+\contentsline {section}{\numberline {6.2}研究展望}{48}{section.6.2}%
+\contentsline {chapter}{参考文献}{49}{chapter*.26}%
+\contentsline {chapter}{致谢}{53}{chapter*.27}%

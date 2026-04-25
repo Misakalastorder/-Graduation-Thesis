@@ -23,50 +23,54 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: Bibliography/Reference.bib
 Warning--I didn't find a database entry for "RL28"
+Warning--Require citedate: CGQJ202511018
 Warning--Require address: oneillOpenXembodimentRobotic2024
-Warning--Require address: figueraRedefiningDataPairing2024
+Warning--Require address: figueraRedefiningDataPairing2024a
+Warning--Require address: penco_robust_2018
 Warning--Require address: ICRA2026LYC
+Warning--Require address: asfour_human-like_2003
+Warning--Require address: choi_towards_2019
 Warning--Require address: dingBunnyvisionproRealtimeBimanual2025
-Warning--Require address: imambiPyTorch2021
-You've used 26 entries,
+Warning--Require address: imambiPyTorch2021a
+You've used 40 entries,
             3107 wiz_defined-function locations,
-            876 strings with 13736 characters,
-and the built_in function-call counts, 52678 in all, are:
-= -- 5906
-> -- 101
-< -- 228
-+ -- 4728
-- -- 351
-* -- 1282
-:= -- 5943
+            951 strings with 16417 characters,
+and the built_in function-call counts, 78569 in all, are:
+= -- 8737
+> -- 153
+< -- 346
++ -- 6982
+- -- 536
+* -- 1978
+:= -- 8806
 add.period$ -- 0
-call.type$ -- 26
-change.case$ -- 150
+call.type$ -- 40
+change.case$ -- 226
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 7515
-empty$ -- 1982
-format.name$ -- 300
-if$ -- 14187
+cite$ -- 49
+duplicate$ -- 11166
+empty$ -- 3006
+format.name$ -- 452
+if$ -- 21114
 int.to.chr$ -- 0
-int.to.str$ -- 26
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 105
-num.names$ -- 26
-pop$ -- 694
+newline$ -- 147
+num.names$ -- 40
+pop$ -- 1070
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 449
+skip$ -- 685
 stack$ -- 0
-substring$ -- 6390
-swap$ -- 1202
+substring$ -- 9459
+swap$ -- 1905
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 663
-width$ -- 28
-write$ -- 359
-(There were 6 warnings)
+warning$ -- 9
+while$ -- 1020
+width$ -- 42
+write$ -- 560
+(There were 10 warnings)

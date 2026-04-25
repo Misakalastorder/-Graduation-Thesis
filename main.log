@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.20)  21 APR 2026 20:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.2.20)  23 APR 2026 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1974,6 +1974,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
 [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1981,7 +1984,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[33])
+[33]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -1989,7 +1992,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[34]
+[34])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[35]
 \openout2 = `docs/Chapter_05.aux'.
 
  (docs/Chapter_05.tex
@@ -2007,7 +2018,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[35
+[36
 
 
 
@@ -2029,7 +2040,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[36]
+[37]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2037,7 +2048,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[37]
+[38]
 Overfull \hbox (8.7849pt too wide) in paragraph at lines 109--120
  [][] 
  []
@@ -2052,7 +2063,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[38]
+[39]
 File: figure/Transformerspatialattentionl.png Graphic file (type bmp)
 <figure/Transformerspatialattentionl.png>
 File: figure/Transformerspatialattentionr.png Graphic file (type bmp)
@@ -2068,7 +2079,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[39]
+[40]
 File: figure/Transformertemporalattentionl.png Graphic file (type bmp)
 <figure/Transformertemporalattentionl.png>
 File: figure/Transformertemporalattentionr.png Graphic file (type bmp)
@@ -2083,7 +2094,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[40]
+[41]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2091,7 +2102,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[41]
+[42]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2102,7 +2113,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[42]
+[43]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2110,7 +2121,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[43]
+[44]
 File: figure/grasping_performance.jpg Graphic file (type bmp)
 <figure/grasping_performance.jpg>
 
@@ -2121,7 +2132,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[44])
+[45])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2129,7 +2140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[45]
+[46]
 \openout2 = `docs/Chapter_06.aux'.
 
  (docs/Chapter_06.tex
@@ -2145,7 +2156,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[46
+[47
 
 
 
@@ -2159,7 +2170,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[47] (main.bbl
+[48] (main.bbl
+Underfull \hbox (badness 1796) in paragraph at lines 28--34
+[]\TU/SimSun(0)/m/n/10.53937 胡 俊 伟\TU/TimesNewRoman(0)/m/n/10.53937 , \TU/SimSu
+n(0)/m/n/10.53937 何 海 洋\TU/TimesNewRoman(0)/m/n/10.53937 , \TU/SimSun(0)/m/n/10
+.53937 雷 英 佳\TU/TimesNewRoman(0)/m/n/10.53937 , et al. \TU/SimSun(0)/m/n/10.539
+37 双 臂 协 作 机 器 人 的 增 强 现 实 人 机 交 互 遥 操 作 系 统
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 28--34
+\TU/TimesNewRoman(0)/m/n/10.53937 [J/OL]. \TU/SimSun(0)/m/n/10.53937 传 感 器 与 微 
+系 统\TU/TimesNewRoman(0)/m/n/10.53937 , 2025, 44(11): 87–92. []$[][][][] [] [] [
+] [][] [] [][][] [] [][][] [] [][] [] [][][][][] [] [] []
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2167,7 +2192,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[48
+[49
 
 
 
@@ -2180,7 +2205,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[49])
+[50]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.64723pt, for example:
@@ -2188,7 +2213,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[50]
+[51])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
+
+[52]
 \openout2 = `docs/Acknowledgements.aux'.
 
  (docs/Acknowledgements.tex)
@@ -2199,7 +2232,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.64723pt}.
 
-[51
+[53
 
 
 
@@ -2223,12 +2256,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 54CF9B1F51CC789D84B492BD1175FE0D;4539.
  ) 
 Here is how much of TeX's memory you used:
- 25353 strings out of 402982
- 514319 string characters out of 5453855
- 985136 words of memory out of 5000000
- 53571 multiletter control sequences out of 15000+600000
- 664863 words of font info for 241 fonts, out of 8000000 for 9000
+ 25462 strings out of 402982
+ 518310 string characters out of 5453855
+ 984369 words of memory out of 5000000
+ 53666 multiletter control sequences out of 15000+600000
+ 668054 words of font info for 261 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,13n,125p,1197b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,13n,125p,1197b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (59 pages).
+Output written on main.pdf (61 pages).
