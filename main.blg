@@ -16,6 +16,8 @@ A level-1 auxiliary file: docs/Chapter_06.aux
 Reallocating 'name_of_file' (item size: 1) to 39 items.
 The style file: Bibliography/bibtex-style/gbt7714-2005.bst
 Reallocating 'name_of_file' (item size: 1) to 23 items.
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: docs/Achievement.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: docs/Acknowledgements.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -25,52 +27,55 @@ Database file #1: Bibliography/Reference.bib
 Warning--I didn't find a database entry for "RL28"
 Warning--Require citedate: CGQJ202511018
 Warning--Require address: oneillOpenXembodimentRobotic2024
+Warning--Require address: orbikHumanHandMotion2021a
 Warning--Require address: figueraRedefiningDataPairing2024a
+Warning--Require address: zhang3DWholeBodyPose2025
 Warning--Require address: penco_robust_2018
 Warning--Require address: ICRA2026LYC
 Warning--Require address: asfour_human-like_2003
 Warning--Require address: choi_towards_2019
 Warning--Require address: dingBunnyvisionproRealtimeBimanual2025
+Warning--Require address: tian_adaptive_2024
 Warning--Require address: imambiPyTorch2021a
-You've used 40 entries,
+You've used 44 entries,
             3107 wiz_defined-function locations,
-            951 strings with 16417 characters,
-and the built_in function-call counts, 78569 in all, are:
-= -- 8737
-> -- 153
-< -- 346
-+ -- 6982
-- -- 536
-* -- 1978
-:= -- 8806
+            974 strings with 17444 characters,
+and the built_in function-call counts, 86604 in all, are:
+= -- 9599
+> -- 169
+< -- 382
++ -- 7632
+- -- 596
+* -- 2195
+:= -- 9654
 add.period$ -- 0
-call.type$ -- 40
-change.case$ -- 226
+call.type$ -- 44
+change.case$ -- 250
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 11166
-empty$ -- 3006
-format.name$ -- 452
-if$ -- 21114
+cite$ -- 56
+duplicate$ -- 12328
+empty$ -- 3369
+format.name$ -- 500
+if$ -- 23263
 int.to.chr$ -- 0
-int.to.str$ -- 40
+int.to.str$ -- 44
 missing$ -- 0
-newline$ -- 147
-num.names$ -- 40
-pop$ -- 1070
+newline$ -- 159
+num.names$ -- 44
+pop$ -- 1202
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 685
+skip$ -- 759
 stack$ -- 0
-substring$ -- 9459
-swap$ -- 1905
+substring$ -- 10417
+swap$ -- 2123
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 1020
-width$ -- 42
-write$ -- 560
-(There were 10 warnings)
+warning$ -- 12
+while$ -- 1140
+width$ -- 46
+write$ -- 620
+(There were 13 warnings)

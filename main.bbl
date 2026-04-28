@@ -53,6 +53,13 @@
   \bibvolume{2}\bibnumber{(2)}\thinspace{}\textnormal{:
   }\bibpages{61\thinspace{}\textnormal{--}\thinspace{}69}\@.
 
+\bibitem{zhangEndtoendHandMesh2019a}
+\bibauthor{ZHANG X\@, LI Q\@, MO H, et~al}\@. \bibtitle{End-to-end hand mesh
+  recovery from a monocular rgb image}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the {IEEE}/{CVF} international
+  conference on computer vision}\@. \bibyear{2019}\thinspace{}\textnormal{:
+  }\bibpages{2354\thinspace{}\textnormal{--}\thinspace{}2364}\@.
+
 \bibitem{oneillOpenXembodimentRobotic2024}
 \bibauthor{O’NEILL A\@, REHMAN A\@, MADDUKURI A, et~al}\@. \bibtitle{Open
   x-embodiment: {Robotic} learning datasets and rt-x models: {Open}
@@ -66,6 +73,14 @@
 \bibauthor{BROHAN A\@, BROWN N\@, CARBAJAL J, et~al}\@. \bibtitle{Rt-1:
   {Robotics} transformer for real-world control at scale}\bibmark{[J]}\@.
   \bibjournal{arXiv preprint arXiv:2212.06817}\@, \bibyear{2022}\@.
+
+\bibitem{orbikHumanHandMotion2021a}
+\bibauthor{ORBIK J\@, LI S\@, LEE D}\@. \bibtitle{Human hand motion retargeting
+  for dexterous robotic hand}\bibmark{[C]} //\thinspace{}\bibbooktitle{2021
+  18th {International} {Conference} on {Ubiquitous} {Robots} ({UR})}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{264\thinspace{}\textnormal{--}\thinspace{}270}\@.
 
 \bibitem{figueraRedefiningDataPairing2024a}
 \bibauthor{FIGUERA X\@, PARK S\@, AHN H}\@. \bibtitle{Redefining {Data}
@@ -88,6 +103,16 @@
 \bibauthor{VASWANI A\@, SHAZEER N\@, PARMAR N, et~al}\@. \bibtitle{Attention is
   all you need}\bibmark{[J]}\@. \bibjournal{Advances in neural information
   processing systems}\@, \bibyear{2017}\@, \bibvolume{30}\@.
+
+\bibitem{zhang3DWholeBodyPose2025}
+\bibauthor{ZHANG M\@, GAO Q\@, LAI Y, et~al}\@. \bibtitle{{3D} {Whole}-{Body}
+  {Pose} {Estimation} {Using} {Graph} {High}-{Resolution} {Network} for
+  {Humanoid} {Robot} {Teleoperation}}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{2025 {IEEE} {International} {Conference} on
+  {Robotics} and {Automation} ({ICRA})}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2025}\thinspace{}\textnormal{:
+  }\bibpages{1090\thinspace{}\textnormal{--}\thinspace{}1096}\@.
 
 \bibitem{__2024}
 \bibauthor{黃心怡\@, 李文皓\@, 雷云丹, et~al}\@.
@@ -292,6 +317,15 @@
   complex dexterous manipulation with deep reinforcement learning and
   demonstrations}\bibmark{[J]}\@. \bibjournal{arXiv preprint
   arXiv:1709.10087}\@, \bibyear{2017}\@.
+
+\bibitem{tian_adaptive_2024}
+\bibauthor{TIAN D\@, LIN X\@, SUN Y}\@. \bibtitle{Adaptive motion planning for
+  multi-fingered functional grasp via force feedback}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{2024 {IEEE}-{RAS} 23rd {International}
+  {Conference} on {Humanoid} {Robots} ({Humanoids})}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2024}\thinspace{}\textnormal{:
+  }\bibpages{835\thinspace{}\textnormal{--}\thinspace{}842}\@.
 
 \bibitem{yuan_motiontrans_2025}
 \bibauthor{YUAN C\@, ZHOU R\@, LIU M, et~al}\@. \bibtitle{Motiontrans: {Human}
