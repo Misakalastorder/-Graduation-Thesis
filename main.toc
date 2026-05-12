@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {2.4.1}基本原理}{10}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}基于图神经网络加速的初始值预测}{10}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}优缺点}{11}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}时间信息的重要性}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.5}时间特征的重要性}{12}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Transformer架构简述}{12}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Transformer的提出}{12}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Transformer 的核心机制：自注意力机制}{12}{subsection.2.6.2}%
@@ -35,65 +35,62 @@
 \contentsline {section}{\numberline {2.7}Transformer架构在人体骨骼点序列中的应用}{13}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Transformer 在人体手语识别中的作用}{13}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Transformer 在 2D 姿态估计 3D 姿态中的作用}{14}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Transformer 在动作序列预测与生成中的作用}{14}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.3}Transformer 在动作序列预测与生成中的作用}{15}{subsection.2.7.3}%
 \contentsline {subsection}{\numberline {2.7.4}Transformer与图神经网络的关系}{15}{subsection.2.7.4}%
 \contentsline {section}{\numberline {2.8}本章小结}{15}{section.2.8}%
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于时空Transformer的运动重定向方法}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}PoseformerV1}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}空间 Transformer 编码器}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}时间 Transformer 编码器}{17}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}回归头}{18}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}优点}{18}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}局限性}{18}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}TransRetarget方法总览}{19}{section.3.2}%
-\contentsline {section}{\numberline {3.3}空间编码器}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}特征线性投影}{20}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}空间位置编码}{20}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}空间多头自注意力机制}{21}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}时间编码器}{21}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}时间位置编码}{21}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}时间多头自注意力机制}{22}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}时空特征深度耦合}{22}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}回归头}{23}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}特征聚合与降维}{23}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}物理范围限制与激活设计}{23}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}运动学模块}{24}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}机器人描述文件解析}{24}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}前向运动学计算}{25}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}跨平台适配的灵活性}{25}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}损失函数设计}{25}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}手指摆动损失}{25}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}手指指尖向量损失}{26}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}手指指尖距离损失}{26}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}碰撞损失}{26}{subsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.7.5}复合损失函数汇总}{27}{subsection.3.7.5}%
-\contentsline {section}{\numberline {3.8}本章小结}{27}{section.3.8}%
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}重定向后的交互强化}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}直接使用重定向结果的缺陷}{29}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于VLM的目标抓取力预测}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}VLM简述}{30}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}大模型结合的目标抓取力预测}{30}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}基于力矩反馈的强化学习}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}强化学习简述}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}力矩反馈的自适应关节角度调整}{31}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}师生策略}{32}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}PD 控制器}{32}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}奖励机制}{33}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}动作和状态空间}{34}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}交互强化与重定向结果的融合}{34}{subsection.4.3.7}%
-\contentsline {chapter}{\numberline {第5章\hspace {.3em}}实验部分}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}实验配置}{36}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}数据集}{36}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}训练设置}{36}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}评测指标}{37}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}评测平台}{37}{subsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.4.1}Linkerhand}{37}{subsubsection.5.1.4.1}%
-\contentsline {subsubsection}{\numberline {5.1.4.2}Shadow Hand}{37}{subsubsection.5.1.4.2}%
-\contentsline {subsubsection}{\numberline {5.1.4.3}Inspire}{37}{subsubsection.5.1.4.3}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于时空Transformer的运动重定向方法}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}PoseformerV1}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}空间 Transformer 编码器}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}时间 Transformer 编码器}{18}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}回归头}{19}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}优点}{19}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}局限性}{19}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}TransRetarget方法总览}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}空间编码器}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}特征线性投影}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}空间位置编码}{21}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}空间多头自注意力机制}{22}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}时间编码器}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}时间位置编码}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}时间多头自注意力机制}{23}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}时空特征深度耦合}{23}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}回归头}{24}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}特征聚合与降维}{24}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}物理范围限制与激活设计}{24}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}运动学模块}{25}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}机器人描述文件解析}{25}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}前向运动学计算}{26}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}跨平台适配的灵活性}{26}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}损失函数设计}{26}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}手指摆动损失}{26}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}手指指尖向量损失}{27}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}手指指尖距离损失}{27}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}碰撞损失}{27}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.7.5}复合损失函数汇总}{28}{subsection.3.7.5}%
+\contentsline {section}{\numberline {3.8}本章小结}{28}{section.3.8}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}重定向后的交互强化}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}直接使用重定向结果的缺陷}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于VLM的目标抓取力预测}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}VLM简述}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}大模型结合的目标抓取力预测}{31}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}基于力矩反馈的强化学习}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}强化学习简述}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}力矩反馈的自适应关节角度调整}{32}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}师生策略}{33}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}PD 控制器}{33}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}奖励机制}{34}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}动作和状态空间}{35}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}交互强化与重定向结果的融合}{35}{subsection.4.3.7}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}实验部分}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}实验配置}{37}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}数据集}{37}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}训练设置}{37}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}评测指标}{38}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}评测平台}{38}{subsection.5.1.4}%
 \contentsline {section}{\numberline {5.2}不同方法的对比实验}{39}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}NLO}{39}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}VMR}{39}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}结果展示}{39}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.3}结果展示}{40}{subsection.5.2.3}%
 \contentsline {section}{\numberline {5.3}消融实验}{40}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}实验设置}{40}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}结果展示}{40}{subsection.5.3.2}%
@@ -101,22 +98,22 @@
 \contentsline {section}{\numberline {5.5}多平台实验}{42}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}pybullet仿真平台}{42}{subsection.5.5.1}%
 \contentsline {subsection}{\numberline {5.5.2}Linker 灵巧手平台实验}{42}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Shadow 灵巧手平台实验}{42}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.3}Shadow 灵巧手平台实验}{44}{subsection.5.5.3}%
 \contentsline {subsection}{\numberline {5.5.4}Inspire 灵巧手平台实验}{44}{subsection.5.5.4}%
 \contentsline {subsection}{\numberline {5.5.5}多平台实验结果}{44}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}抓取性能测试}{44}{section.5.6}%
+\contentsline {section}{\numberline {5.6}抓取性能测试}{45}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}仿真抓取实验}{45}{subsection.5.6.1}%
 \contentsline {subsubsection}{\numberline {5.6.1.1}闭环控制模块}{45}{subsubsection.5.6.1.1}%
 \contentsline {subsubsection}{\numberline {5.6.1.2}仿真抓取实验环境搭建}{45}{subsubsection.5.6.1.2}%
 \contentsline {subsection}{\numberline {5.6.2}实机实验}{46}{subsection.5.6.2}%
 \contentsline {subsubsection}{\numberline {5.6.2.1}实机实验环境构建}{46}{subsubsection.5.6.2.1}%
-\contentsline {subsubsection}{\numberline {5.6.2.2}实机实验对象与任务设计}{46}{subsubsection.5.6.2.2}%
+\contentsline {subsubsection}{\numberline {5.6.2.2}实机实验对象与任务设计}{47}{subsubsection.5.6.2.2}%
 \contentsline {subsubsection}{\numberline {5.6.2.3}实机实验结果}{47}{subsubsection.5.6.2.3}%
-\contentsline {subsection}{\numberline {5.6.3}实验结果分析}{48}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.3}实验结果分析}{47}{subsection.5.6.3}%
 \contentsline {section}{\numberline {5.7}本章小结}{48}{section.5.7}%
 \contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{49}{chapter.6}%
 \contentsline {section}{\numberline {6.1}工作总结}{49}{section.6.1}%
 \contentsline {section}{\numberline {6.2}研究展望}{50}{section.6.2}%
-\contentsline {chapter}{参考文献}{51}{chapter*.28}%
-\contentsline {chapter}{相关的科研成果目录}{55}{chapter*.29}%
-\contentsline {chapter}{致谢}{56}{chapter*.30}%
+\contentsline {chapter}{参考文献}{51}{chapter*.26}%
+\contentsline {chapter}{相关的科研成果目录}{55}{chapter*.27}%
+\contentsline {chapter}{致谢}{56}{chapter*.28}%
