@@ -18,13 +18,10 @@ The style file: Bibliography/bibtex-style/gbt7714-2005.bst
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: docs/Achievement.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: docs/Acknowledgements.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: Bibliography/Reference.bib
-Warning--I didn't find a database entry for "RL28"
 Warning--Require citedate: CGQJ202511018
 Warning--Require address: oneillOpenXembodimentRobotic2024
 Warning--Require address: orbikHumanHandMotion2021a
@@ -39,7 +36,7 @@ Warning--Require address: tian_adaptive_2024
 Warning--Require address: imambiPyTorch2021a
 You've used 44 entries,
             3107 wiz_defined-function locations,
-            974 strings with 17444 characters,
+            971 strings with 17411 characters,
 and the built_in function-call counts, 86604 in all, are:
 = -- 9599
 > -- 169
@@ -78,4 +75,4 @@ warning$ -- 12
 while$ -- 1140
 width$ -- 46
 write$ -- 620
-(There were 13 warnings)
+(There were 12 warnings)
